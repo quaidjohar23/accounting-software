@@ -696,7 +696,7 @@ app.get("/profit-loss", (req, res) => {
 
 
 // BALANCE SHEET
-app.get("/balance-sheet?date=2026-07-31", (req, res) => {
+app.get("/balance-sheet", (req, res) => {
 
     const sql = `
     SELECT 
